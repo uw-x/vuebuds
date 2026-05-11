@@ -1,0 +1,161 @@
+[2025-Jun-16 18:02:35] [debug] --------------------------------------------------------------------------------
+[2025-Jun-16 18:02:35] [debug] nrfjprog -f nrf52 --program _build/banji.hex --sectorerase --log 
+[2025-Jun-16 18:02:35] [debug] nrfjprog version 10.24.2 external
+[2025-Jun-16 18:02:35] [debug] --------------------------------------------------------------------------------
+[2025-Jun-16 18:02:35] [ info] Load library at /Applications/Nordic Semiconductor/lib/libnrfjprogdll.dylib.
+[2025-Jun-16 18:02:35] [ info] Library loaded, loading member functions.
+[2025-Jun-16 18:02:35] [ info] Member functions succesfully loaded.
+[2025-Jun-16 18:02:35] [debug] [ Client] - open
+[2025-Jun-16 18:02:35] [debug] [ Client] - start
+[2025-Jun-16 18:02:35] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence fc25c386-4681-480e-8bdd-769e72f31c9c.
+[2025-Jun-16 18:02:35] [trace] [ Client] - Command open executed for 12 milliseconds with result 0
+[2025-Jun-16 18:02:35] [debug] [ Client] - config
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2025-Jun-16 18:02:35] [debug] [  JLink] - Logger sink registered in JLink logger
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - open
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - just_check_family
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - open_dll
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2025-Jun-16 18:02:35] [ info] [SeggerBackend] - Load library at /Applications/SEGGER/JLink/libjlinkarm.8.dylib.
+[2025-Jun-16 18:02:35] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2025-Jun-16 18:02:35] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - Set batch mode
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - dll_version
+[2025-Jun-16 18:02:35] [ info] [SeggerBackend] - Segger dll version 8.42.  loaded.
+[2025-Jun-16 18:02:35] [trace] [ Worker] - Command open executed for 4 milliseconds with result 0
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - config
+[2025-Jun-16 18:02:35] [trace] [ Client] - Command config executed for 6 milliseconds with result 0
+[2025-Jun-16 18:02:35] [debug] [ Client] - enum_emu_snr
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - enum_emu_snr
+[2025-Jun-16 18:02:35] [trace] [ Worker] - Command config executed for 2 milliseconds with result 0
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - enum_emu_con_info
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - enum_emu_con_info
+[2025-Jun-16 18:02:35] [trace] [ Client] - Command enum_emu_con_info executed for 18 milliseconds with result 0
+[2025-Jun-16 18:02:35] [debug] [ Client] - connect_to_emu_with_snr
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [trace] [ Worker] - Command enum_emu_con_info executed for 12 milliseconds with result 0
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - connect_to_emu_with_snr
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - connect_to_emu_with_snr
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - ---just_enum_emu_snr
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - ---just_get_num_emus
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - ---just_connect_to_emu_with_snr
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - ---just_connect_to_emu_without_snr
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - Segger logging enabled.
+[2025-Jun-16 18:02:35] [trace] [  JLink] - Firmware: J-Link V11 compiled Apr  1 2025 10:02:30
+[2025-Jun-16 18:02:35] [trace] [  JLink] - Firmware: J-Link V11 compiled Apr  1 2025 10:02:30
+[2025-Jun-16 18:02:35] [trace] [  JLink] - Hardware: V11.00
+[2025-Jun-16 18:02:35] [trace] [  JLink] - S/N: 821008294
+[2025-Jun-16 18:02:35] [trace] [  JLink] - OEM: SEGGER
+[2025-Jun-16 18:02:35] [trace] [  JLink] - Feature(s): GDB
+[2025-Jun-16 18:02:35] [trace] [  JLink] - Bootloader: 2019 Jul 04
+[2025-Jun-16 18:02:35] [trace] [  JLink] - USB speed mode: High speed (480 MBit/s)
+[2025-Jun-16 18:02:35] [trace] [  JLink] - TELNET listener socket opened on port 19021
+[2025-Jun-16 18:02:35] [trace] [  JLink] - WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+[2025-Jun-16 18:02:35] [trace] [  JLink] - WEBSRV Webserver running on local port 19080
+[2025-Jun-16 18:02:35] [trace] [  JLink] - Looking for J-Link GUI Server exe at: /Applications/SEGGER/JLink_V842/JLinkGUIServerExe 
+[2025-Jun-16 18:02:35] [trace] [  JLink] - Forking J-Link GUI Server: /Applications/SEGGER/JLink_V842/JLinkGUIServerExe 
+[2025-Jun-16 18:02:35] [trace] [  JLink] - J-Link GUI Server info: "J-Link GUI server V8.42 " 
+[2025-Jun-16 18:02:35] [trace] [ Client] - Command connect_to_emu_with_snr executed for 372 milliseconds with result 0
+[2025-Jun-16 18:02:35] [debug] [ Client] - read_connected_emu_snr
+[2025-Jun-16 18:02:35] [trace] [ Client] - Command read_connected_emu_snr executed for 6 milliseconds with result 0
+[2025-Jun-16 18:02:35] [debug] [ Client] - read_device_info
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 326.137ms returns "O.K."  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_Lock()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_ExecCommand("SetRestartOnClose = 0", ...).   
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.002ms returns 0x01  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_ExecCommand("DisableFlashDL", ...).   
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.002ms returns 0x00  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...).   
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.002ms returns 0x00  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_SetHookUnsecureDialog  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_SetHookUnsecureDialog(...)
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.004ms returns 0  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_TIF_Select(JLINKARM_TIF_SWD)  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.724ms returns 0x00  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_GetSpeedInfo()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - 180000000 Hz / n, n >= 12
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.004ms   
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - Connected emulator supports SWD speeds up to 15000kHz
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_SetSpeed(2000)  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.283ms   
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_GetSpeed()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.002ms returns 2000  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - SWD clock set to 2000kHz
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_GetSN()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.000ms returns 821008294  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.001ms   
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - read_device_family
+[2025-Jun-16 18:02:35] [trace] [ Worker] - Command connect_to_emu_with_snr executed for 366 milliseconds with result 0
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - read_connected_emu_snr
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_IsOpen()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.003ms returns 0x01  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_Lock()  
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - read_connected_emu_snr
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.003ms   
+[2025-Jun-16 18:02:35] [trace] [ Worker] - Command read_connected_emu_snr executed for 0 milliseconds with result 0
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - read_device_info
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_IsOpen()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.003ms returns 0x01  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_Lock()  
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - Just_read_device_version
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - Just_readback_status
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - Just_is_ctrl_ap_available
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - read_access_port_register
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - ---just_read_access_port_register
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - coresight_configure
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_GetHWStatus(...)  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.377ms returns 0  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_HasError()  
+[2025-Jun-16 18:02:35] [trace] [  JLink] - - 0.001ms   
+[2025-Jun-16 18:02:35] [trace] [  JLink] - JLINK_Close()  
+[2025-Jun-16 18:02:35] [error] [ Client] - Encountered error -12: Command read_device_info executed for 29 milliseconds with result -12
+[2025-Jun-16 18:02:35] [warning] Failed to read device info. Attempting to complete command anyways.
+[2025-Jun-16 18:02:35] [debug] [ Client] - read_memory_descriptors
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [error] [ Client] - Encountered error -2: Command read_memory_descriptors executed for 6 milliseconds with result -2
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [error] [ Worker] - Low voltage 0 detected in target device.
+[2025-Jun-16 18:02:35] [trace] [ Worker] - Command read_device_info executed for 21 milliseconds with result -12
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - read_memory_descriptors
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - Just_read_memory_descriptors
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - Just_readback_status
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - Just_is_ctrl_ap_available
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - read_access_port_register
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [error] [ Worker] - Cannot call read_access_port_register when connect_to_emu_without_snr or connect_to_emu_with_snr has not been called.
+[2025-Jun-16 18:02:35] [trace] [ Worker] - Command read_memory_descriptors executed for 0 milliseconds with result -2
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - close
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - close
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - disconnect_from_emu
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2025-Jun-16 18:02:35] [debug] [SeggerBackend] - Segger Backend closed.
+[2025-Jun-16 18:02:35] [debug] [  nRF52] - nRF family DLL closed
+[2025-Jun-16 18:02:35] [trace] [ Client] - Command close executed for 31 milliseconds with result 0
+[2025-Jun-16 18:02:35] [debug] [ Client] - terminate
+[2025-Jun-16 18:02:35] [trace] [ Worker] - Command close executed for 25 milliseconds with result 0
+[2025-Jun-16 18:02:35] [trace] [ Client] - Command terminate executed for 12 milliseconds with result 0
+[2025-Jun-16 18:02:35] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2025-Jun-16 18:02:35] [trace] [ Worker] - Executed 9 commands for 430 milliseconds
+[2025-Jun-1

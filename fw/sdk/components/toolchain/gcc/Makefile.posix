@@ -1,0 +1,8 @@
+GNU_INSTALL_ROOT ?= $(firstword $(wildcard \
+    /usr/local/Cellar/20180627/bin/ \
+    /usr/local/bin/ \
+    /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/ \
+))
+
+GNU_VERSION ?= 7.3.1
+GNU_PREFIX ?= arm-none-eabi
